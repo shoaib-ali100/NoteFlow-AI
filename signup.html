@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sign Up | NoteFlow AI</title>
+
+    <link rel="stylesheet" href="signup.css">
+</head>
+
+<body>
+
+    <!-- Background -->
+    <div class="background-glow glow-one"></div>
+    <div class="background-glow glow-two"></div>
+
+    <!-- Header -->
+    <header class="signup-header">
+
+        <a href="index.html" class="brand">
+            <div class="brand-logo">
+                <span>+</span>
+            </div>
+
+            <div>
+                <h2>NoteFlow <span>AI</span></h2>
+                <p>Clinical Intelligence</p>
+            </div>
+        </a>
+
+        <div class="header-login">
+            <span>Already a member?</span>
+            <a href="signin.html">Sign In</a>
+        </div>
+
+    </header>
+
+
+    <!-- Main -->
+    <main class="signup-container">
+
+        <!-- ================= LEFT SIDE ================= -->
+
+        <section class="hero-section">
+
+            <div class="eyebrow">
+                <span class="eyebrow-dot"></span>
+                SMART CLINICAL DOCUMENTATION
+            </div>
+
+            <h1>
+                Your time belongs
+                <span>with your patients.</span>
+            </h1>
+
+            <p class="hero-description">
+                Let NoteFlow AI handle the documentation while you focus
+                on what matters most — delivering exceptional patient care.
+            </p>
+
+
+            <!-- AI Note Preview -->
+            <div class="note-preview">
+
+                <div class="note-top">
+
+                    <div class="note-title">
+                        <div class="plus-icon">+</div>
+
+                        <div>
+                            <h3>Clinical Note</h3>
+                            <span>AI Generated</span>
+                        </div>
+                    </div>
+
+                    <div class="ready-badge">
+                        <span>●</span>
+                        Ready
+                    </div>
+
+                </div>
+
+
+                <div class="note-content">
+
+                    <div class="note-line large"></div>
+                    <div class="note-line"></div>
+                    <div class="note-line medium"></div>
+
+                    <div class="note-section">
+                        <span>Assessment</span>
+                        <div class="note-line"></div>
+                        <div class="note-line short"></div>
+                    </div>
+
+                    <div class="note-section">
+                        <span>Plan</span>
+                        <div class="note-line medium"></div>
+                    </div>
+
+                </div>
+
+
+                <div class="note-footer">
+
+                    <div class="confidence">
+                        <div class="check">✓</div>
+
+                        <div>
+                            <strong>98.5% confidence</strong>
+                            <small>Generated in 8 seconds</small>
+                        </div>
+                    </div>
+
+                    <div class="ai-sparkle">✦</div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Benefits -->
+            <div class="benefits">
+
+                <div class="benefit">
+
+                    <div class="benefit-icon">✓</div>
+
+                    <div>
+                        <h3>AI-powered notes</h3>
+
+                        <p>
+                            Automatically structure patient conversations
+                            into clear clinical notes.
+                        </p>
+                    </div>
+
+                </div>
+
+
+                <div class="benefit">
+
+                    <div class="benefit-icon">✓</div>
+
+                    <div>
+                        <h3>Built for clinicians</h3>
+
+                        <p>
+                            A simple workflow designed around your
+                            clinical routine.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ================= RIGHT SIDE ================= -->
+
+        <section class="form-section">
+
+            <div class="form-card">
+
+                <!-- Form Header -->
+                <div class="form-header">
+
+                    <div class="trial-badge">
+                        <span>✦</span>
+                        7 DAYS FREE
+                    </div>
+
+                    <h2>Start your free trial</h2>
+
+                    <p>
+                        Join 50,000+ clinicians transforming their
+                        documentation workflow with AI.
+                    </p>
+
+                </div>
+
+
+                <!-- Google -->
+                <button type="button" class="google-btn" id="googleBtn">
+
+                    <svg viewBox="0 0 24 24">
+                        <path
+                            d="M21.35 12.27c0-.79-.07-1.56-.22-2.27H12v4.3h5.22a4.47 4.47 0 0 1-1.94 2.94v2.45h3.14c1.84-1.69 2.93-4.18 2.93-7.42z">
+                        </path>
+
+                        <path
+                            d="M12 21.75c2.63 0 4.84-.87 6.45-2.36l-3.14-2.45c-.87.58-1.98.92-3.31.92-2.54 0-4.69-1.72-5.46-4.03H3.3v2.53A9.74 9.74 0 0 0 12 21.75z">
+                        </path>
+
+                        <path
+                            d="M6.54 13.83a5.84 5.84 0 0 1 0-3.66V7.64H3.3a9.75 9.75 0 0 0 0 8.72l3.24-2.53z">
+                        </path>
+
+                        <path
+                            d="M12 6.14c1.43 0 2.72.49 3.73 1.45l2.8-2.8C16.83 3.17 14.63 2.25 12 2.25a9.74 9.74 0 0 0-8.7 5.39l3.24 2.53C7.31 7.86 9.46 6.14 12 6.14z">
+                        </path>
+                    </svg>
+
+                    Continue with Google
+
+                </button>
+
+
+                <!-- Divider -->
+                <div class="divider">
+                    <span>OR CONTINUE WITH EMAIL</span>
+                </div>
+
+
+                <!-- Signup Form -->
+                <form id="signupForm">
+
+
+                    <!-- Full Name -->
+                    <div class="form-group">
+
+                        <label for="fullName">
+                            Full Name
+                        </label>
+
+                        <input
+                            type="text"
+                            id="fullName"
+                            placeholder="Dr. John Smith"
+                            autocomplete="name"
+                        >
+
+                        <small id="fullNameError" class="error"></small>
+
+                    </div>
+
+
+                    <!-- Email -->
+                    <div class="form-group">
+
+                        <label for="email">
+                            Email Address
+                        </label>
+
+                        <input
+                            type="email"
+                            id="email"
+                            placeholder="doctor@example.com"
+                            autocomplete="email"
+                        >
+
+                        <small id="emailError" class="error"></small>
+
+                    </div>
+
+
+                    <!-- Specialty -->
+                    <div class="form-group">
+
+                        <label for="specialty">
+                            Medical Specialty
+                        </label>
+
+                        <select id="specialty">
+
+                            <option value="">
+                                Select your specialty
+                            </option>
+
+                            <option value="Family Medicine">
+                                Family Medicine
+                            </option>
+
+                            <option value="Internal Medicine">
+                                Internal Medicine
+                            </option>
+
+                            <option value="Cardiology">
+                                Cardiology
+                            </option>
+
+                            <option value="Dermatology">
+                                Dermatology
+                            </option>
+
+                            <option value="Pediatrics">
+                                Pediatrics
+                            </option>
+
+                            <option value="Neurology">
+                                Neurology
+                            </option>
+
+                            <option value="Psychiatry">
+                                Psychiatry
+                            </option>
+
+                            <option value="Other">
+                                Other
+                            </option>
+
+                        </select>
+
+                        <small id="specialtyError" class="error"></small>
+
+                    </div>
+
+
+                    <!-- Password -->
+                    <div class="form-group">
+
+                        <label for="password">
+                            Password
+                        </label>
+
+                        <div class="password-box">
+
+                            <input
+                                type="password"
+                                id="password"
+                                placeholder="Create a password"
+                                autocomplete="new-password"
+                            >
+
+                            <button
+                                type="button"
+                                id="passwordToggle"
+                                class="password-toggle">
+                                Show
+                            </button>
+
+                        </div>
+
+                        <small class="password-hint">
+                            Minimum 8 characters
+                        </small>
+
+                        <small id="passwordError" class="error"></small>
+
+                    </div>
+
+
+                    <!-- Confirm Password -->
+                    <div class="form-group">
+
+                        <label for="confirmPassword">
+                            Confirm Password
+                        </label>
+
+                        <div class="password-box">
+
+                            <input
+                                type="password"
+                                id="confirmPassword"
+                                placeholder="Confirm your password"
+                                autocomplete="new-password"
+                            >
+
+                            <button
+                                type="button"
+                                id="confirmPasswordToggle"
+                                class="password-toggle">
+                                Show
+                            </button>
+
+                        </div>
+
+                        <small id="confirmPasswordError" class="error"></small>
+
+                    </div>
+
+
+                    <!-- Terms -->
+                    <div class="terms-row">
+
+                        <input
+                            type="checkbox"
+                            id="terms"
+                        >
+
+                        <label for="terms">
+                            I agree to the
+                            <a href="#">Terms of Service</a>
+                            and
+                            <a href="#">Privacy Policy</a>.
+                        </label>
+
+                    </div>
+
+                    <small id="termsError" class="error"></small>
+
+
+                    <!-- Create Account -->
+                    <button
+                        type="submit"
+                        class="create-btn">
+
+                        Create your account
+
+                        <span>→</span>
+
+                    </button>
+
+
+                </form>
+
+
+                <!-- Login -->
+                <div class="login-text">
+
+                    Already have an account?
+
+                    <a href="signin.html">
+                        Sign In
+                    </a>
+
+                </div>
+
+
+                <!-- Security -->
+                <div class="security-note">
+
+                    <span>🔒</span>
+
+                    <p>
+                        Your information is encrypted and protected.
+                        We never sell your data.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- What's Included -->
+            <div class="included-card">
+
+                <h3>
+                    <span>✦</span>
+                    What's included
+                </h3>
+
+                <div class="included-grid">
+
+                    <div>
+                        <span class="include-check">✓</span>
+                        7-day free trial — no credit card
+                    </div>
+
+                    <div>
+                        <span class="include-check">✓</span>
+                        All specialty templates included
+                    </div>
+
+                    <div>
+                        <span class="include-check">✓</span>
+                        HIPAA-compliant & fully encrypted
+                    </div>
+
+                    <div>
+                        <span class="include-check">✓</span>
+                        AI notes in under 60 seconds
+                    </div>
+
+                    <div>
+                        <span class="include-check">✓</span>
+                        Cancel anytime, hassle-free
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Testimonial -->
+            <div class="testimonial">
+
+                <div class="quote">
+                    “
+                </div>
+
+                <p>
+                    NoteFlow AI has completely transformed my practice.
+                    I save over 2 hours every day and can finally focus
+                    on my patients.
+                </p>
+
+                <div class="doctor">
+
+                    <div class="doctor-avatar">
+                        S
+                    </div>
+
+                    <div>
+                        <strong>Dr. Sarah Johnson</strong>
+                        <span>Family Medicine</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- Success Overlay -->
+    <div class="success-overlay" id="successOverlay">
+
+        <div class="success-box">
+
+            <div class="success-icon">
+                ✓
+            </div>
+
+            <h2>Account Created!</h2>
+
+            <p>
+                Your NoteFlow AI account has been created successfully.
+            </p>
+
+            <span>
+                Redirecting...
+            </span>
+
+        </div>
+
+    </div>
+
+
+    <script src="signup.js"></script>
+
+</body>
+</html>

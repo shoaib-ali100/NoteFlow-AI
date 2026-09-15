@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sign In - NoteFlow AI</title>
+
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+
+    <!-- Sign In CSS -->
+    <link rel="stylesheet" href="signin.css">
+
+</head>
+
+
+<body>
+
+
+    <!-- ==========================================
+         BACKGROUND
+    =========================================== -->
+
+    <div class="signin-background"></div>
+
+
+
+    <!-- ==========================================
+         NAVBAR
+    =========================================== -->
+
+    <header class="signin-navbar">
+
+        <div class="signin-nav-container">
+
+
+            <!-- Logo -->
+
+            <a href="index.html" class="signin-logo">
+
+                <span class="signin-logo-icon">
+                    ✦
+                </span>
+
+                <span>
+                    NoteFlow<span class="logo-ai"> AI</span>
+                </span>
+
+            </a>
+
+
+
+            <!-- Back Home -->
+
+            <a href="index.html" class="back-home">
+
+                ← Back to Home
+
+            </a>
+
+
+        </div>
+
+    </header>
+
+
+
+    <!-- ==========================================
+         SIGN IN PAGE
+    =========================================== -->
+
+    <main class="signin-page">
+
+
+        <!-- SIGN IN CARD -->
+
+        <div class="signin-card">
+
+
+            <!-- Heading -->
+
+            <div class="signin-heading">
+
+                <span class="section-label">
+                    WELCOME BACK
+                </span>
+
+                <h1>
+                    Sign in to your account
+                </h1>
+
+                <p>
+                    Continue to your NoteFlow AI workspace.
+                </p>
+
+            </div>
+
+
+
+            <!-- ======================================
+                 GOOGLE BUTTON
+            ======================================= -->
+
+            <button
+                type="button"
+                class="google-btn"
+                id="googleBtn">
+
+                <span class="google-icon">
+                    G
+                </span>
+
+                <span>
+                    Continue with Google
+                </span>
+
+            </button>
+
+
+
+            <!-- ======================================
+                 DIVIDER
+            ======================================= -->
+
+            <div class="form-divider">
+
+                <span></span>
+
+                <p>
+                    or continue with email
+                </p>
+
+                <span></span>
+
+            </div>
+
+
+
+            <!-- ======================================
+                 LOGIN FORM
+            ======================================= -->
+
+            <form id="signinForm">
+
+
+                <!-- EMAIL -->
+
+                <div class="form-group">
+
+                    <label for="email">
+                        Email Address
+                    </label>
+
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="you@example.com"
+                        autocomplete="email">
+
+                    <small
+                        id="emailError"
+                        class="form-error">
+                    </small>
+
+                </div>
+
+
+
+                <!-- PASSWORD -->
+
+                <div class="form-group">
+
+
+                    <div class="password-label-row">
+
+                        <label for="password">
+                            Password
+                        </label>
+
+
+                        <!-- Forgot Password -->
+
+                        <a
+                            href="#"
+                            id="forgotPassword">
+
+                            Forgot password?
+
+                        </a>
+
+                    </div>
+
+
+
+                    <div class="password-wrapper">
+
+                        <input
+                            type="password"
+                            id="password"
+                            name="password"
+                            placeholder="Enter your password"
+                            autocomplete="current-password">
+
+
+                        <button
+                            type="button"
+                            id="passwordToggle"
+                            class="password-toggle">
+
+                            Show
+
+                        </button>
+
+                    </div>
+
+
+                    <small
+                        id="passwordError"
+                        class="form-error">
+                    </small>
+
+                </div>
+
+
+
+                <!-- REMEMBER ME -->
+
+                <div class="remember-row">
+
+                    <input
+                        type="checkbox"
+                        id="remember"
+                        name="remember">
+
+                    <label for="remember">
+
+                        Remember me
+
+                    </label>
+
+                </div>
+
+
+
+                <!-- SIGN IN BUTTON -->
+
+                <button
+                    type="submit"
+                    class="signin-btn">
+
+                    <span>
+                        Sign In
+                    </span>
+
+                    <span>
+                        →
+                    </span>
+
+                </button>
+
+
+            </form>
+
+
+
+            <!-- ======================================
+                 CREATE ACCOUNT
+            ======================================= -->
+
+            <p class="signup-text">
+
+                Don't have an account?
+
+                <a href="signup.html">
+                    Create Account
+                </a>
+
+            </p>
+
+
+        </div>
+
+    </main>
+
+
+
+    <!-- ==========================================
+         LOGIN SUCCESS POPUP
+    =========================================== -->
+
+    <div
+        class="login-success"
+        id="loginSuccess">
+
+
+        <div class="success-box">
+
+
+            <div class="success-icon">
+                ✓
+            </div>
+
+
+            <h2>
+                Welcome Back!
+            </h2>
+
+
+            <p>
+                You have successfully signed in.
+            </p>
+
+
+            <a
+                href="index.html"
+                class="success-btn">
+
+                Continue →
+
+            </a>
+
+
+        </div>
+
+    </div>
+
+
+
+    <!-- ==========================================
+         JAVASCRIPT
+    =========================================== -->
+
+    <script src="signin.js"></script>
+
+
+</body>
+
+</html>

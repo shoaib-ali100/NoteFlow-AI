@@ -1,0 +1,1501 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta
+        name="description"
+        content="AI-powered clinical documentation platform"
+    >
+
+    <title>NoteFlow AI - AI Clinical Documentation</title>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet"
+    >
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- =====================================================
+         NAVBAR
+    ====================================================== -->
+
+    <header class="navbar">
+
+        <div class="nav-container">
+
+            <!-- Logo -->
+            <a href="#" class="logo">
+                <span class="logo-icon">✦</span>
+                <span>NoteFlow<span class="logo-ai"> AI</span></span>
+            </a>
+
+
+            <!-- Navigation Links -->
+            <nav class="nav-links">
+
+                <a href="#features">Features</a>
+
+                <a href="#how-it-works">How It Works</a>
+
+                <a href="#pricing">Pricing</a>
+
+                <a href="#security">Security</a>
+
+                <a href="#about">About</a>
+
+            </nav>
+
+
+            <!-- Navigation Buttons -->
+            <div class="nav-actions">
+
+                <a href="signup.html" class="sign-in">
+                    Sign In
+                </a>
+
+                <a href="signup.html" class="nav-trial">
+                    Start Free Trial
+                </a>
+
+            </div>
+
+
+            <!-- Mobile Menu Button -->
+            <button class="menu-btn" id="menuBtn">
+                ☰
+            </button>
+
+        </div>
+
+    </header>
+
+
+
+    <!-- =====================================================
+         HERO SECTION
+    ====================================================== -->
+
+    <main>
+
+        <section class="hero">
+
+            <!-- Background Grid -->
+            <div class="hero-grid"></div>
+
+
+            <div class="hero-container">
+
+                <!-- Hero Left -->
+                <div class="hero-content">
+
+                    <div class="hero-badge">
+                        <span class="status-dot"></span>
+                        AI-Powered Clinical Documentation
+                    </div>
+
+
+                    <h1>
+                        Spend More Time
+                        <span>With Your Patients.</span>
+                    </h1>
+
+
+                    <p class="hero-description">
+
+                        NoteFlow AI listens, understands, and transforms
+                        your patient conversations into accurate clinical
+                        notes — automatically.
+
+                    </p>
+
+
+                    <div class="hero-buttons">
+
+                        <a href="signup.html" class="primary-btn">
+                            Start Free Trial
+                            <span>→</span>
+                        </a>
+
+
+                        <button class="secondary-btn" id="watchDemoBtn">
+                            <span class="play-icon">▶</span>
+                            Watch Demo
+                        </button>
+
+                    </div>
+
+
+                    <div class="hero-trust">
+
+                        <div class="avatars">
+
+                            <span>DR</span>
+                            <span>MK</span>
+                            <span>AS</span>
+                            <span>+</span>
+
+                        </div>
+
+                        <p>
+                            Trusted by <strong>50,000+</strong> clinicians
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- Hero Right -->
+                <div class="hero-dashboard">
+
+                    <div class="dashboard-glow"></div>
+
+
+                    <div class="dashboard-window">
+
+                        <!-- Dashboard Header -->
+                        <div class="dashboard-header">
+
+                            <div class="dashboard-brand">
+
+                                <div class="mini-logo">
+                                    ✦
+                                </div>
+
+                                <span>Clinical Workspace</span>
+
+                            </div>
+
+
+                            <div class="dashboard-user">
+                                <span class="online-dot"></span>
+                                Dr. Sarah
+                            </div>
+
+                        </div>
+
+
+                        <!-- Dashboard Body -->
+                        <div class="dashboard-body">
+
+                            <!-- Sidebar -->
+                            <aside class="dashboard-sidebar">
+
+                                <div class="side-item active">
+                                    <span>▣</span>
+                                    Dashboard
+                                </div>
+
+                                <div class="side-item">
+                                    <span>◷</span>
+                                    Recent Notes
+                                </div>
+
+                                <div class="side-item">
+                                    <span>⚙</span>
+                                    Settings
+                                </div>
+
+                            </aside>
+
+
+                            <!-- Dashboard Main -->
+                            <div class="dashboard-main">
+
+                                <div class="dashboard-title">
+
+                                    <div>
+                                        <small>GOOD MORNING</small>
+
+                                        <h3>
+                                            Ready for your next visit?
+                                        </h3>
+                                    </div>
+
+                                    <button class="new-visit">
+                                        + New Visit
+                                    </button>
+
+                                </div>
+
+
+                                <!-- Recording Card -->
+                                <div class="recording-card">
+
+                                    <div class="recording-top">
+
+                                        <div class="recording-status">
+                                            <span class="recording-dot"></span>
+                                            Recording
+                                        </div>
+
+                                        <span class="timer">
+                                            08:42
+                                        </span>
+
+                                    </div>
+
+
+                                    <div class="sound-wave">
+
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+
+                                    </div>
+
+
+                                    <p>
+                                        AI is listening and capturing
+                                        clinical details...
+                                    </p>
+
+                                </div>
+
+
+                                <!-- AI Note -->
+                                <div class="note-card">
+
+                                    <div class="note-header">
+
+                                        <div>
+                                            <small>AI GENERATED NOTE</small>
+
+                                            <h4>
+                                                Clinical Summary
+                                            </h4>
+                                        </div>
+
+                                        <span class="ready-badge">
+                                            Ready
+                                        </span>
+
+                                    </div>
+
+
+                                    <div class="note-lines">
+
+                                        <div class="note-line long"></div>
+
+                                        <div class="note-line medium"></div>
+
+                                        <div class="note-line long"></div>
+
+                                        <div class="note-line short"></div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =====================================================
+             STATS
+        ====================================================== -->
+
+        <section class="stats-section">
+
+            <div class="stats-container">
+
+                <div class="stat">
+
+                    <strong>50,000+</strong>
+
+                    <span>Active Clinicians</span>
+
+                </div>
+
+
+                <div class="stat">
+
+                    <strong>2M+</strong>
+
+                    <span>Notes Generated</span>
+
+                </div>
+
+
+                <div class="stat">
+
+                    <strong>10,000+</strong>
+
+                    <span>Hours Saved Daily</span>
+
+                </div>
+
+
+                <div class="stat">
+
+                    <strong>98.5%</strong>
+
+                    <span>Accuracy Rate</span>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =====================================================
+             FEATURES
+        ====================================================== -->
+
+        <section class="features-section" id="features">
+
+            <div class="section-heading">
+
+                <span class="section-label">
+                    POWERFUL FEATURES
+                </span>
+
+                <h2>
+                    Documentation that
+                    <span>works for you.</span>
+                </h2>
+
+                <p>
+                    Spend less time typing and more time doing what
+                    matters — caring for your patients.
+                </p>
+
+            </div>
+
+
+            <div class="features-grid">
+
+                <!-- Feature 1 -->
+                <article class="feature-card">
+
+                    <div class="feature-icon">
+                        ◉
+                    </div>
+
+                    <h3>
+                        AI Medical Scribe
+                    </h3>
+
+                    <p>
+                        Automatically capture conversations and
+                        transform them into structured clinical notes.
+                    </p>
+
+                    <a href="#how-it-works">
+                        Learn more →
+                    </a>
+
+                </article>
+
+
+                <!-- Feature 2 -->
+                <article class="feature-card">
+
+                    <div class="feature-icon">
+                        ✦
+                    </div>
+
+                    <h3>
+                        Smart Clinical Notes
+                    </h3>
+
+                    <p>
+                        Generate clear, organized documentation
+                        designed for modern clinical workflows.
+                    </p>
+
+                    <a href="#how-it-works">
+                        Learn more →
+                    </a>
+
+                </article>
+
+
+                <!-- Feature 3 -->
+                <article class="feature-card">
+
+                    <div class="feature-icon">
+                        ✓
+                    </div>
+
+                    <h3>
+                        Review & Edit
+                    </h3>
+
+                    <p>
+                        Quickly review AI-generated notes and make
+                        changes before sending them to your system.
+                    </p>
+
+                    <a href="#how-it-works">
+                        Learn more →
+                    </a>
+
+                </article>
+
+
+                <!-- Feature 4 -->
+                <article class="feature-card">
+
+                    <div class="feature-icon">
+                        ⚡
+                    </div>
+
+                    <h3>
+                        Save Hours Every Day
+                    </h3>
+
+                    <p>
+                        Reduce administrative work and spend more
+                        valuable time with your patients.
+                    </p>
+
+                    <a href="#how-it-works">
+                        Learn more →
+                    </a>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =====================================================
+             HOW IT WORKS
+        ====================================================== -->
+
+        <section class="how-section" id="how-it-works">
+
+            <div class="section-heading">
+
+                <span class="section-label">
+                    HOW IT WORKS
+                </span>
+
+                <h2>
+                    From conversation to
+                    <span>clinical note.</span>
+                </h2>
+
+                <p>
+                    A simple workflow designed around the way
+                    clinicians actually work.
+                </p>
+
+            </div>
+
+
+            <div class="steps-container">
+
+                <!-- Step 1 -->
+                <div class="step-card">
+
+                    <div class="step-number">
+                        01
+                    </div>
+
+                    <div class="step-icon">
+                        ◉
+                    </div>
+
+                    <h3>
+                        Start Visit
+                    </h3>
+
+                    <p>
+                        Start a new visit and let NoteFlow AI
+                        capture the conversation automatically.
+                    </p>
+
+                </div>
+
+
+                <!-- Step 2 -->
+                <div class="step-card">
+
+                    <div class="step-number">
+                        02
+                    </div>
+
+                    <div class="step-icon">
+                        ≋
+                    </div>
+
+                    <h3>
+                        Capture
+                    </h3>
+
+                    <p>
+                        Our AI understands the conversation and
+                        identifies important clinical information.
+                    </p>
+
+                </div>
+
+
+                <!-- Step 3 -->
+                <div class="step-card">
+
+                    <div class="step-number">
+                        03
+                    </div>
+
+                    <div class="step-icon">
+                        ✓
+                    </div>
+
+                    <h3>
+                        Clinical Note
+                    </h3>
+
+                    <p>
+                        Receive a structured clinical note ready
+                        for review and editing.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- Second Process -->
+            <div class="process-box">
+
+                <div class="process-content">
+
+                    <span class="section-label">
+                        SIMPLE WORKFLOW
+                    </span>
+
+                    <h3>
+                        Capture. Review. Send.
+                    </h3>
+
+                    <p>
+                        NoteFlow AI fits naturally into your workflow
+                        without adding extra complexity.
+                    </p>
+
+                </div>
+
+
+                <div class="process-list">
+
+                    <div class="process-item">
+
+                        <span>01</span>
+
+                        <div>
+                            <strong>Capture</strong>
+                            <p>
+                                Record the patient conversation.
+                            </p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="process-item">
+
+                        <span>02</span>
+
+                        <div>
+                            <strong>Review & Edit</strong>
+                            <p>
+                                Review and customize the generated note.
+                            </p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="process-item">
+
+                        <span>03</span>
+
+                        <div>
+                            <strong>Send</strong>
+                            <p>
+                                Finalize your documentation.
+                            </p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =====================================================
+             PRICING
+        ====================================================== -->
+
+        <section class="pricing-section" id="pricing">
+
+            <div class="section-heading">
+
+                <span class="section-label">
+                    PRICING
+                </span>
+
+                <h2>
+                    Simple pricing.
+                    <span>Powerful results.</span>
+                </h2>
+
+                <p>
+                    Start free and upgrade when you're ready.
+                </p>
+
+            </div>
+
+
+            <div class="pricing-grid">
+
+                <!-- Starter -->
+                <div class="pricing-card">
+
+                    <span class="plan-name">
+                        Starter
+                    </span>
+
+                    <h3>
+                        $0
+                        <small>/month</small>
+                    </h3>
+
+                    <p>
+                        For clinicians getting started.
+                    </p>
+
+                    <a href="signup.html" class="pricing-btn">
+                        Start Free
+                    </a>
+
+                    <ul>
+
+                        <li>✓ AI note generation</li>
+
+                        <li>✓ Basic clinical templates</li>
+
+                        <li>✓ Secure workspace</li>
+
+                    </ul>
+
+                </div>
+
+
+                <!-- Professional -->
+                <div class="pricing-card featured">
+
+                    <div class="popular">
+                        MOST POPULAR
+                    </div>
+
+                    <span class="plan-name">
+                        Professional
+                    </span>
+
+                    <h3>
+                        $49
+                        <small>/month</small>
+                    </h3>
+
+                    <p>
+                        For professionals who want more.
+                    </p>
+
+                    <a href="signup.html" class="pricing-btn">
+                        Start Free Trial
+                    </a>
+
+                    <ul>
+
+                        <li>✓ Unlimited notes</li>
+
+                        <li>✓ Advanced AI documentation</li>
+
+                        <li>✓ Custom templates</li>
+
+                        <li>✓ Priority support</li>
+
+                    </ul>
+
+                </div>
+
+
+                <!-- Practice -->
+                <div class="pricing-card">
+
+                    <span class="plan-name">
+                        Practice
+                    </span>
+
+                    <h3>
+                        Custom
+                    </h3>
+
+                    <p>
+                        For growing healthcare teams.
+                    </p>
+
+                    <a href="#about" class="pricing-btn">
+                        Contact Us
+                    </a>
+
+                    <ul>
+
+                        <li>✓ Team management</li>
+
+                        <li>✓ Advanced security</li>
+
+                        <li>✓ Dedicated support</li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =====================================================
+             SECURITY
+        ====================================================== -->
+
+        <section class="security-section" id="security">
+
+            <div class="security-content">
+
+                <span class="section-label">
+                    SECURITY
+                </span>
+
+                <h2>
+                    Your data deserves
+                    <span>the highest protection.</span>
+                </h2>
+
+                <p>
+                    Built with privacy and security at the center
+                    of every part of the platform.
+                </p>
+
+
+                <div class="security-features">
+
+                    <div>
+                        <span>✓</span>
+                        <strong>Encrypted Data</strong>
+                    </div>
+
+                    <div>
+                        <span>✓</span>
+                        <strong>Secure Infrastructure</strong>
+                    </div>
+
+                    <div>
+                        <span>✓</span>
+                        <strong>Privacy First</strong>
+                    </div>
+
+                    <div>
+                        <span>✓</span>
+                        <strong>Access Controls</strong>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="security-card">
+
+                <div class="security-shield">
+                    ✓
+                </div>
+
+                <h3>
+                    Secure by Design
+                </h3>
+
+                <p>
+                    Security is built into the platform from
+                    the ground up.
+                </p>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =====================================================
+             ABOUT / CTA
+        ====================================================== -->
+
+        <section class="about-section" id="about">
+
+            <div class="about-box">
+
+                <span class="section-label">
+                    ABOUT NOTEFLOW AI
+                </span>
+
+                <h2>
+                    Less documentation.
+                    <span>More care.</span>
+                </h2>
+
+                <p>
+                    We're building technology that helps clinicians
+                    spend less time behind a screen and more time
+                    focused on their patients.
+                </p>
+
+                <a href="signup.html" class="primary-btn">
+                    Start Your Free Trial
+                    <span>→</span>
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+
+    <!-- =====================================================
+         FOOTER
+    ====================================================== -->
+
+    <footer class="footer">
+
+        <div class="footer-container">
+
+            <div class="footer-brand">
+
+                <a href="#" class="logo">
+
+                    <span class="logo-icon">
+                        ✦
+                    </span>
+
+                    <span>
+                        NoteFlow<span class="logo-ai"> AI</span>
+                    </span>
+
+                </a>
+
+                <p>
+                    AI-powered clinical documentation
+                    for modern healthcare.
+                </p>
+
+            </div>
+
+
+            <div class="footer-column">
+
+                <h4>Product</h4>
+
+                <a href="#features">Features</a>
+
+                <a href="#how-it-works">How It Works</a>
+
+                <a href="#pricing">Pricing</a>
+
+            </div>
+
+
+            <div class="footer-column">
+
+                <h4>Company</h4>
+
+                <a href="#about">About</a>
+
+                <a href="#security">Security</a>
+
+                <a href="#">Contact</a>
+
+            </div>
+
+
+            <div class="footer-column">
+
+                <h4>Get Started</h4>
+
+                <a href="signup.html">
+                    Start Free Trial
+                </a>
+
+                <a href="signup.html">
+                    Sign In
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-bottom">
+
+            <p>
+                © 2026 NoteFlow AI. All rights reserved.
+            </p>
+
+            <div>
+
+                <a href="#">
+                    Privacy
+                </a>
+
+                <a href="#">
+                    Terms
+                </a>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+
+    <!-- =====================================================
+         DEMO MODAL
+    ====================================================== -->
+
+    <div class="modal-overlay" id="demoModal">
+
+        <div class="demo-modal">
+
+            <button
+                class="modal-close"
+                id="closeDemo"
+            >
+                ×
+            </button>
+
+
+            <span class="section-label">
+                PRODUCT DEMO
+            </span>
+
+
+            <h2>
+                See NoteFlow AI in action
+            </h2>
+
+
+            <p>
+                Follow the simple journey from patient
+                conversation to clinical note.
+            </p>
+
+
+            <div class="demo-stage">
+
+                <div class="demo-icon">
+                    ◉
+                </div>
+
+                <h3 id="demoTitle">
+                    Start Visit
+                </h3>
+
+                <p id="demoText">
+                    Begin a new patient visit and start capturing
+                    the conversation.
+                </p>
+
+            </div>
+
+
+            <div class="demo-progress">
+
+                <span class="demo-dot active"></span>
+
+                <span class="demo-line"></span>
+
+                <span class="demo-dot"></span>
+
+                <span class="demo-line"></span>
+
+                <span class="demo-dot"></span>
+
+            </div>
+
+
+            <button
+                class="primary-btn demo-next"
+                id="demoNext"
+            >
+                Next →
+            </button>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <h1>Student Registration</h1>
+
+<input type="text" id="name" placeholder="Student Name">
+<input type="text" id="roll" placeholder="Roll No">
+
+<select id="course">
+    <option value="">Select Course</option>  
+    <option value="50000">Software Engineering</option>
+    <option value="45000">Computer Science</option>
+    <option value="40000">Information Technology</option>
+</select>
+
+<input type="number" id="discount" placeholder="Discount">
+
+<select id="status">
+    <option value="Paid">Paid</option>
+    <option value="Unpaid">Unpaid</option>
+</select>
+
+<button id="addBtn">Register Student</button>
+
+<br><br>
+
+<input type="text" id="search" placeholder="Search Name or Roll No">
+
+<br><br>
+
+<button id="allBtn">All</button>
+<button id="paidBtn">Paid</button>
+<button id="unpaidBtn">Unpaid</button>
+
+<h3>Total Collected Fee: <span id="collected">0</span></h3>
+<h3>Total Remaining Fee: <span id="remaining">0</span></h3>
+
+<table border="1">
+
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Roll No</th>
+            <th>Course</th>
+            <th>Final Fee</th>
+            <th>Status</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+
+    <tbody id="studentTable"></tbody>
+
+</table>
+
+<script src="script.js"></script>
+
+</body>
+</html>-->
+
+<!-- <!DOCTYPE html>
+<html>
+<head>
+    <title>Signup Login</title>
+</head>
+<body> -->
+
+    <!-- SIGNUP -->
+    <!-- <div id="signup">
+
+        <h2>Create Account</h2>
+
+        <input id="firstname" type="text" placeholder="First Name">
+        <br><br>
+
+        <input id="lastname" type="text" placeholder="Last Name">
+        <br><br>
+
+        <input id="phone" type="text" placeholder="Phone Number">
+        <br><br>
+
+        <input id="email" type="text" placeholder="Email">
+        <br><br>
+
+        <input id="password" type="password" placeholder="Password">
+        <br><br>
+
+        <input id="confirmPassword" type="password" placeholder="Confirm Password">
+        <br><br>
+
+        <button id="createBtn">Create Account</button>
+
+        <p id="signupMessage"></p>
+
+    </div>
+
+
+     LOGIN 
+    <div id="login" style="display: none;">
+
+        <h2>Login</h2>
+
+        <input id="loginEmail" type="text" placeholder="Email">
+        <br><br>
+
+        <input id="loginPassword" type="password" placeholder="Password">
+        <br><br>
+
+        <button id="loginBtn">Login</button>
+
+        <p id="loginMessage"></p>
+
+    </div>-->
+
+
+    <!-- <div class="container">
+
+        <h1>Student Management System</h1>
+
+         Student Form 
+
+        <div class="form">
+
+            <input id="name" type="text" placeholder="Student Name">
+
+            <input id="roll" type="text" placeholder="Roll Number">
+
+            <input id="email" type="text" placeholder="Email">
+
+            <input id="phone" type="text" placeholder="Phone Number">
+
+            <h3>Enter Marks</h3>
+
+            <input id="english" type="number" placeholder="English">
+
+            <input id="math" type="number" placeholder="Math">
+
+            <input id="computer" type="number" placeholder="Computer">
+
+            <input id="physics" type="number" placeholder="Physics">
+
+            <input id="urdu" type="number" placeholder="Urdu">
+
+            <button id="addBtn">Add Student</button>
+
+        </div>
+
+
+         Search 
+
+        <div class="searchBox">
+
+            <input id="search" type="text" placeholder="Enter Roll Number">
+
+            <button id="searchBtn">Search Student</button>
+
+            <button id="showBtn">Show All</button>
+
+        </div>
+
+
+        <h3 class="total">
+            Total Students:
+            <span id="total">0</span>
+        </h3>
+
+
+         Student Table 
+
+        <table>
+
+            <thead>
+
+                <tr>
+                    <th>Name</th>
+                    <th>Roll No</th>
+                    <th>Email</th>
+                    <th>Phone</th>
+                    <th>Total</th>
+                    <th>Percentage</th>
+                    <th>Grade</th>
+                    <th>Result</th>
+                    <th>Action</th>
+                </tr>
+
+            </thead>
+
+
+            <tbody id="studentTable">
+
+            </tbody>
+
+        </table>
+
+    </div>
+
+
+    
+
+     <script src="first.js"></script>
+
+</body>
+</html> 
+  
+
+     <h1>Student Management System</h1>
+
+    <input type="text" id="name" placeholder="Student Name">
+    <input type="text" id="roll" placeholder="Roll Number">
+    <input type="number" id="marks" placeholder="Marks">
+
+    <button id="addBtn">Add Student</button>
+
+    <br><br>
+
+    <input type="text" id="search" placeholder="Search Student">
+
+    <select id="filter">
+        <option value="all">All</option>
+        <option value="pass">Pass</option>
+        <option value="fail">Fail</option>
+    </select>
+
+    <h3>Total Students: <span id="total">0</span></h3>
+
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Roll No</th>
+                <th>Marks</th>
+                <th>Percentage</th>
+                <th>Grade</th>
+                <th>Result</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+
+        <tbody id="studentList">
+        </tbody>
+    </table> -->
+
+    
+
+
+
